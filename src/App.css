@@ -255,6 +255,15 @@
   animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
+.homepage-image-container.new-pic-container {
+  max-width: 760px;
+  margin: 2rem auto;
+}
+
+.homepage-image-container.new-pic-container .homepage-image {
+  max-height: 620px;
+}
+
 .homepage-image {
   width: 100%;
   height: auto;

@@ -1,5 +1,6 @@
 import './App.css'
 import homepageImage from './assets/new pic.jpeg'
+import newPic from './assets/adver.jpeg'
 
 function App() {
   return (
@@ -14,7 +15,13 @@ function App() {
             <p className="tagline">The Easiest Way to Find Senior Care</p>
           </div>
         </div>
-
+        <div className="homepage-image-container new-pic-container">
+          <img 
+            src={newPic} 
+            alt="Senior Care Directory Homepage" 
+            className="homepage-image"
+          />
+        </div>
         <div className="homepage-image-container">
           <img 
             src={homepageImage} 
